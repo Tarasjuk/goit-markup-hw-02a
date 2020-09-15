@@ -1,0 +1,195 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-fond: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --footer-order-color: #212121;
+  --explination-team-progects-backgroundbutton-color: #757575;
+  --footertext-header-color: #ffffff;
+  --order-caption-color: #2f303a;
+  --background-team-color: #f5f4fa;
+}
+body {
+  font-family: var(--main-font);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address-links {
+  font-style: normal;
+}
+.logo-studio-up {
+  color: var(--footer-order-color);
+}
+.logo {
+  font-family: var(--secondary-fond);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: var(--footer-order-color);
+}
+.header-mail-link,
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--explination-team-progects-backgroundbutton-color);
+}
+.navigation-list-link.current,
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus,
+.address-link-map:hover,
+.address-link-map:focus,
+.address-link-mail:hover,
+.address-link-mail:focus,
+.address-link-tel:hover,
+.header-link-tel:focus {
+  color: var(--accent-color);
+}
+
+.order-title-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--footertext-header-color);
+}
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  color: var(--footertext-header-color);
+}
+.order-caption {
+  background: var(--order-caption-color);
+}
+.feature-list-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-order-color);
+}
+.feature-list-lead {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--explination-team-progects-backgroundbutton-color);
+}
+.work-img-title,
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--footer-order-color);
+}
+.team-section {
+  background: var(--background-team-color);
+}
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--footer-order-color);
+}
+.team-list-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--explination-team-progects-backgroundbutton-color);
+}
+.team-list-content {
+  background: var(--footertext-header-color);
+}
+.footer-address {
+  background: var(--order-caption-color);
+}
+.address-link-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footertext-header-color);
+}
+.address-link-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.button-list-info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--footer-order-color);
+  background: var(--background-team-color);
+}
+.button-list-info:focus,
+.button-list-info:hover {
+  color: var(--footertext-header-color);
+  background: var(--accent-color);
+}
+.progect-link-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20;
+  letter-spacing: 0.06em;
+  color: var(--footer-order-color);
+}
+.progect-link-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--explination-team-progects-backgroundbutton-color);
+}
+.logo-studio-down {
+  color: var(--footertext-header-color);
+}
